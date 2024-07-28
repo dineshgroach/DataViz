@@ -13,3 +13,33 @@ The DataViz Hub is a full-stack web application designed to provide users with r
 - [View Live](https://exquisite-malasada-843a0f.netlify.app/)
 
   ![](https://github.com/dineshgroach/DataViz/blob/main/client/pics/cache.png)
+
+
+## <a name="installation">Installation</a>
+
+Clone the Project in your Local Machine:
+
+```bash
+$ git clone https://github.com/dineshgroach/DataViz.git
+$ cd DataViz
+```
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**Set Up Environment Variables**
+
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
+MONGO_URI=
+VITE_HOST=
+```
+**Running the Project**
+
+```bash
+npm run dev
+```
