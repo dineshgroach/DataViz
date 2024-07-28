@@ -30,7 +30,7 @@ Install the project dependencies using npm:
 npm install
 ```
 
-**Set Up Environment Variables**
+Set Up Environment Variables:
 
 Create a new file named `.env` in the root of your project and add the following content:
 
@@ -38,7 +38,7 @@ Create a new file named `.env` in the root of your project and add the following
 MONGO_URI=
 VITE_HOST=
 ```
-**Running the Project**
+Running the Project:
 
 ```bash
 npm run dev
